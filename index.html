@@ -13,6 +13,10 @@
 			font-family: Ubuntu;
 			src: url("Ubuntu-R.ttf");
 		}
+		@font-face{
+			font-family: inconsolata;
+			src: url("Inconsolata.sfd");
+		}
 		/*
 			Reset
 		*/
@@ -89,16 +93,39 @@
 				color:white;
 				background-color:white;
 			}
+			#welcome{
+				/*height:500px;*/
+				height:95vh;
+				/*min-height:100%;*/
+				width:100%;
+				background-color:black;
+			}
 			#welcomeBanner{
-				color:black;
-				font-size:32px;
+				font-family:inconsolata;
+				color:#00EE00;
+				background-color:black;
+				/*font-size:32px;*/
 				text-align:center;
+				padding-top:40px;
+				padding-left:25px;
+				vertical-align: center;
+			}
+			#greeting{
+				font-family:inconsolata;
+				color:#00EE00;
+				padding-left:25px;
 			}
 		</style>
 
 
 	</Head>
 	<Body>
+		<div id ="welcome">
+			<h1 id ="welcomeBanner">
+				cout << "Hello World!" << endl;	
+			</h1>
+		<p id = "greeting">Nicolai@NicolaisWebsite:~/Documents/Projects/Index.html/ > Welcome to my humble site!</p>
+		</div>
 		<div id = "navBarDiv">
 			<ul id = "navbar">
 				<!-- <li class = "nav" id = "name"><a class = "navLink" href="home.html">Nicolai Ferraris</a></li> -->
@@ -110,9 +137,8 @@
 			</ul>
 		</div>
 		<div id = "centerDiv">
-			<h1 id ="welcomeBanner">
-				Nicolai Ferraris
-			</h1>
+
+
 		</div>
 	</Body>
 </HTML>

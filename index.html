@@ -1,1 +1,109 @@
-Hello World
+<!DOCTYPE html>
+<HTML>
+	<Head>
+		<title>
+			Nicolai Ferraris | Home
+		</title>
+		
+		<style>
+		/*
+			Font installations
+		*/
+		@font-face{
+			font-family: Ubuntu;
+			src: url("Ubuntu-R.ttf");
+		}
+		/*
+			Reset
+		*/
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: Ubuntu;
+		}
+		body{
+			background-color:gray;
+
+		}
+		/*
+			Global Declares
+		*/
+			#navBarDiv{
+				height:30px;
+				background-color:orange;
+				padding-top:0;
+			}
+			a{
+				text-decoration:none;
+			}
+		/*
+		Specifics
+		*/
+			/*
+			Navigation Bar
+			*/
+			ul#navbar{
+				list-style-position: inside;
+				list-style:none;
+			}
+
+
+			.nav{
+				float: right;
+				width: 65px;
+				/*background-color:blue;*/
+				height:30px;
+				color:white;
+				text-align: center;
+				padding-top:4px;
+				padding-right:4px;
+			}
+			.navLink{
+				color:white;
+				/*background-color:orange;*/
+			}
+			#name{
+				float:left;
+				width:120px;
+				display:inline-block;
+				/*background-color:orange;*/
+				padding-left:4px;
+			}
+			.nav:hover{
+				background-color: purple;
+			}
+			/*
+			Primary content
+			*/
+			#centerDiv{
+				position:absolute;
+				height:5000px;
+				width:80%;
+				display:block;
+				left:10%;
+				margin-right: auto;
+				color:white;
+				background-color:white;
+			}
+		</style>
+
+
+	</Head>
+	<Body>
+		<div id = "navBarDiv">
+			<ul id = "navbar">
+				<li class = "nav" id = "name"><a class = "navLink" href="home.html">Nicolai Ferraris</a></li>
+				<li class = "nav"><a class = "navLink" href="contact.html"> Contact </a></li>
+				<li class = "nav"><a class = "navLink" href="projects.html"> Projects </a></li>
+				<li class = "nav"><a class = "navLink" href="resume.pdf"> Resume </a></li>
+				<li class = "nav"><a class = "navLink" href="home.html"> Home </a></li>
+
+			</ul>
+		</div>
+		<div id = "centerDiv">
+			<p>
+				This is some tester text
+			</p>
+		</div>
+	</Body>
+</HTML>

@@ -24,6 +24,7 @@
 			margin: 0;
 			padding: 0;
 			font-family: Ubuntu;
+			padding-bottom:0;
 		}
 		body{
 			background-color:gray;
@@ -33,7 +34,7 @@
 			Global Declares
 		*/
 			#navBarDiv{
-				height:30px;
+				height:35px;
 				background-color:orange;
 				padding-top:0;
 				/*position:fixed;*/
@@ -49,8 +50,8 @@
 			Navigation Bar
 			*/
 			ul#navbar{
-				list-style-position: inside;
-				list-style:none;
+				/*list-style-position: inside;*/
+				/*list-style:none;*/
 				text-align:center;
 			}
 
@@ -59,11 +60,12 @@
 				/*float: right;*/
 				width: 65px;
 				/*background-color:blue;*/
-				height:30px;
+				height:35px;
 				color:white;
 				text-align: center;
 				padding-top:4px;
-				padding-right:4px;
+				padding-right:25px;
+				padding-left:25px;
 				display:inline-block;
 			}
 			.navLink{
@@ -98,22 +100,30 @@
 				height:95vh;
 				/*min-height:100%;*/
 				width:100%;
+				/*background-color:#d3d3d3;*/
+				/*background-color:#686868;*/
 				background-color:black;
 			}
 			#welcomeBanner{
 				font-family:inconsolata;
 				color:#00EE00;
-				background-color:black;
+				/*color:#FF6700;*/
+				/*background-color:black;*/
 				/*font-size:32px;*/
 				text-align:center;
-				padding-top:40px;
+				padding-top:40vh;
 				padding-left:25px;
 				vertical-align: center;
+				font-size:50px;
 			}
 			#greeting{
 				font-family:inconsolata;
 				color:#00EE00;
+				/*color:#FF6700;*/
 				padding-left:25px;
+				text-align:center;
+				font-size:20px;
+				padding-top:5px;
 			}
 		</style>
 
@@ -124,7 +134,7 @@
 			<h1 id ="welcomeBanner">
 				cout << "Hello World!" << endl;	
 			</h1>
-		<p id = "greeting">Nicolai@NicolaisWebsite:~/Documents/Projects/Index.html/ > Welcome to my humble site!</p>
+		<p id = "greeting">"A journey of a thousand miles begins with a single step" -Laozi</p>
 		</div>
 		<div id = "navBarDiv">
 			<ul id = "navbar">

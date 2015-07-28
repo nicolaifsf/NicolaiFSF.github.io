@@ -35,7 +35,8 @@
 		*/
 			#navBarDiv{
 				height:35px;
-				background-color:#727272;
+				background-color:#3B3738;
+				/*background-color:#FDF3E7;*/
 				padding-top:0;
 				/*position:fixed;*/
 			}
@@ -69,7 +70,8 @@
 				display:inline-block;
 			}
 			.navLink{
-				color:white;
+				color:#C63D0f;
+				/*color:#D9853B;*/
 				/*background-color:orange;*/
 			}
 			#name{
@@ -80,7 +82,7 @@
 				padding-left:4px;
 			}
 			.nav:hover{
-				background-color: purple;
+				background-color: #74AFAD;
 			}
 			/*
 			Primary content
@@ -103,8 +105,11 @@
 				/*background-color:#d3d3d3;*/
 				/*background-color:#686868;*/
 				background-color:black;
+				font-weight:lighter;
 			}
 			#welcomeBanner{
+				background: "CodeBack.jpg";
+
 				font-family:inconsolata;
 				color:#00EE00;
 				/*color:#FF6700;*/
@@ -114,7 +119,7 @@
 				padding-top:40vh;
 				padding-left:25px;
 				vertical-align: center;
-				font-size:50px;
+				font-size:75px;
 			}
 			#greeting{
 				font-family:inconsolata;
@@ -124,6 +129,31 @@
 				text-align:center;
 				font-size:20px;
 				padding-top:5px;
+			}
+			#restDiv{
+				/*background-color:#3B3738;*/
+				background-color:#7E8F7C;
+				height:100%;
+				padding:40px;
+			}
+			#points{
+				text-align:center;
+			}
+			#mainPoints{
+				type: I;
+				padding-left:25px;
+				text-align:left;
+				/*padding-top:25px;*/
+				display:inline-block;
+			}
+
+			#test2{
+				color:#FF5722;
+				font-size:36px;
+			}
+			#test3{
+				color:black;
+				font-size:36px;
 			}
 		</style>
 
@@ -140,15 +170,38 @@
 			<ul id = "navbar">
 				<!-- <li class = "nav" id = "name"><a class = "navLink" href="home.html">Nicolai Ferraris</a></li> -->
 				<li class = "nav"><a class = "navLink" href="home.html"> Home </a></li>
-				<li class = "nav"><a class = "navLink" href="contact.html"> Contact </a></li>
+				<li class = "nav"><a class = "navLink" href="top.html"> About </a></li>
 				<li class = "nav"><a class = "navLink" href="projects.html"> Projects </a></li>
 				<li class = "nav"><a class = "navLink" href="resume.pdf"> Resume </a></li>
-
+				<li class = "nav"><a class = "navLink" href="contact.html"> Contact </a></li>
 			</ul>
 		</div>
-		<div id = "centerDiv">
+	<!-- 	<div id = "centerDiv">
 
 
+		</div> -->
+		<div id = "restDiv">
+			<div id = "points">
+				<ol id = "mainPoints" type ="I">
+					<li>BS Computer Science at NYU</li>
+					<li>Minor in Econimics at NYU</li>
+					<li>TA at NYU</li>
+					<li>Comissioner of Public Relations NYU Student Council></li>
+				</ol>
+			</div>
+		<p id = "test2">
+				<!-- testing testing one two three testing -->
+
+		</p>
+		<p id="test3">
+			Hello, I am Nicolai Ferraris, a Software Developer currently residing in Manhattan, NY.
+		</p>
+		<p>
+			I am currently a rising Sophomore at New York University. I am employed as a Computer Science TA. Previously, I have also interned at the DAE, or the Digital Arts Experience, which is a start up in Westchester that provides lessons on various technologies to various age groups.
+		</p>
+		<p>
+
+		</p>
 		</div>
 	</Body>
 </HTML>

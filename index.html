@@ -10,7 +10,7 @@
 		<title>
 			Nicolai Ferraris | Home
 		</title>
-		
+
 		<style>
 		/*
 			Font installations
@@ -146,19 +146,39 @@
 			#test3{
 				color:#FF951F;
 				font-size:36px;
+				padding:10px;
 			}
 			p{
 				color:#FF951F;
-				
+
+			}
+			.aboutMe{
+				/*float:left;*/
+				padding:10px;
+			}
+			#aboutSection{
+				content: " ";
+				display: table;
+				/*background-color:purple;*/
+			}
+			.portrait{
+				width:228px;
+				height:304px;
+				padding-top:20px;
+				float:right;
+			}
+			#aboutText{
+				padding:10px;
+				width:75%;
+				/*background-color:blue;*/
 			}
 		</style>
-
 
 	</Head>
 	<Body>
 		<div id ="welcome">
 			<h1 id ="welcomeBanner">
-				cout << "Hello World!" << endl;	
+				cout << "Hello World!" << endl;
 			</h1>
 		<p id = "greeting">"A journey of a thousand miles begins with a single step" -Laozi</p>
 		</div>
@@ -174,24 +194,29 @@
 
 
 		<div id = "restDiv">
-			<div id = "points">
-				<ol id = "mainPoints" type ="I">
-					<li>BS Computer Science at NYU</li>
-					<li>Minor in Econimics at NYU</li>
-					<li>TA at NYU</li>
-					<li>Comissioner of Public Relations NYU Student Council></li>
-				</ol>
-			</div>
-	
-		<p id="test3">
-			Hello, I am Nicolai Ferraris, a Software Developer currently residing in Manhattan, NY.
-		</p>
-		<p>
-			I am currently a rising Sophomore at New York University. Previously, I have also interned at the DAE, or the Digital Arts Experience, which is a start up in Westchester that provides lessons on various technologies to various age groups.
-		</p>
-		<p>
 
-		</p>
+		<div id = "aboutSection">
+			<img src="NicolaiFerraris.jpg" class = "portrait">
+
+		<div id = "aboutText">
+				<p id="test3">
+					Hello, I am Nicolai Ferraris
+				</p>
+				<p class = "aboutMe">
+					I am currently a rising Sophomore at New York University's School of Engineering studying Computer Science and minoring in Economics.
+				</p>
+				<p class ="aboutMe">
+					<!-- Right now, I am seated as the Comissioner of Public Relations of the NYU School of Engineering Student Council. I also am employed by NYU's Computer Science Department as a Teaching Assistant. -->
+				Right now, I am seated as the Comissioner of Public Relations of the NYU School of Engineering Student Council. I also am employed by NYU as a Teaching Assistant.
+				</p>
+				<p class ="aboutMe">
+					Surrounded by amazing people here at the School of Engineering, I am inspired to make further leaps and bounds, to step out of my comfort level, and work on improving my skills. Without the support from all of my peers, friends, colleagues, and professors. I would not be where I am here today.
+				</p>
+				<p class ="aboutMe">
+					Thank you to everyone who has had such a profound impact on my life. I am eternally grateful to you all, and despite the fact that I am still a novice, I plan to continue striving, and working hard in order to make each and every one of you proud.
+				</p>
 		</div>
+		</div>
+	</div>
 	</Body>
 </HTML>

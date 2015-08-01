@@ -47,7 +47,11 @@
 			a{
 				text-decoration:none;
 			}
-
+			#lines{
+				background-color: white;
+				height:2px;
+				width:100%;
+			}
 		/*
 		Specifics
 		*/
@@ -143,7 +147,7 @@
 				color:#FF5722;
 				font-size:36px;
 			}
-			#test3{
+			.sectionTitle{
 				color:#FF951F;
 				font-size:36px;
 				padding:10px;
@@ -172,6 +176,11 @@
 				width:75%;
 				/*background-color:blue;*/
 			}
+
+			#projTitle{
+				font-size:36px;
+				padding: 10px;
+			}
 		</style>
 
 	</Head>
@@ -194,20 +203,21 @@
 
 
 		<div id = "restDiv">
-
+		<div id = "lines">
+		</div>
 		<div id = "aboutSection">
 			<img src="NicolaiFerraris.jpg" class = "portrait">
 
 		<div id = "aboutText">
-				<p id="test3">
-					Hello, I am Nicolai Ferraris
+				<p class="sectionTitle">
+					<u>Hello, I am Nicolai Ferraris</u>
 				</p>
 				<p class = "aboutMe">
 					I am currently a rising Sophomore at New York University's School of Engineering studying Computer Science and minoring in Economics.
 				</p>
 				<p class ="aboutMe">
 					<!-- Right now, I am seated as the Comissioner of Public Relations of the NYU School of Engineering Student Council. I also am employed by NYU's Computer Science Department as a Teaching Assistant. -->
-				Right now, I am seated as the Comissioner of Public Relations of the NYU School of Engineering Student Council. I also am employed by NYU as a Teaching Assistant.
+				Right now, I am seated as the Commissioner of Public Relations of the NYU School of Engineering Student Council. I also am employed by NYU as a Teaching Assistant.
 				</p>
 				<p class ="aboutMe">
 					Surrounded by amazing people here at the School of Engineering, I am inspired to make further leaps and bounds, to step out of my comfort level, and work on improving my skills. Without the support from all of my peers, friends, colleagues, and professors. I would not be where I am here today.
@@ -216,7 +226,26 @@
 					Thank you to everyone who has had such a profound impact on my life. I am eternally grateful to you all, and despite the fact that I am still a novice, I plan to continue striving, and working hard in order to make each and every one of you proud.
 				</p>
 		</div>
+
 		</div>
+		<div id = "lines"></div>
+		<div class = "projects">
+			<p class = "sectionTitle">
+				<u>Projects</u>
+			</p>
+			<div id = "firstProj">
+				<p id = "projTitle">
+					This Website
+				</p>
+			</div>
+		</div>
+		<div id = "lines"> </div>
+		<div class = "resume">
+		Resume here
+	</div>
+	<div id = "lines"> </div>
+	<div class = "contact">
+	</div
 	</div>
 	</Body>
 </HTML>

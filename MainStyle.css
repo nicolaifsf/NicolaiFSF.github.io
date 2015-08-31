@@ -1,0 +1,158 @@
+/*MAIN STYLESHEET*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*
+Font Inits
+*/
+@font-face{
+	font-family: Ubuntu;
+	src: url("Ubuntu-R.ttf");
+}
+
+
+
+
+.welcome_section{
+	background-color:#EF9634;
+	height:93vh;
+	width:100vw;
+}
+
+
+*{
+	margin:0;
+	padding:0;
+	font-family:Ubuntu;
+}
+
+
+header{
+	text-align:center;
+	vertical-align: middle;
+	height:100%;
+
+	background-color:#174E79;
+	/*height: 6vh;*/
+	width: 100vw;
+	text-align:center;
+	vertical-align: middle;
+	display:table;
+}
+
+.navContainer{
+	/*width: 50%;*/
+	margin: 0 auto;
+	display:table;
+}
+
+
+.navItem{
+	font-family:Ubuntu;
+	float:left;
+	vertical-align: middle;
+	font-size: 25px;
+	color:white;
+	padding-right: 40px;
+	padding-left:40px;
+	/*display:table-cell;*/
+	/*height: 100%;*/
+	/*margin-top: 0.5em;*/
+	padding-top:2vh;
+	padding-bottom:2vh;
+}
+
+.navItem:hover{
+	background-color:white;
+}
+
+
+@media all and (max-width:665px){
+	.navItem{
+		padding-left:0px;
+		padding-right: 0px;
+		float:left;
+		width: 100vw;
+	}
+	#portrait{
+		display: none;
+	}
+}
+
+
+
+.about_section_container{
+	background-color:#333333;
+	/*background-color:black;*/
+	height: 93vh;
+	width: 100vw;
+}
+
+.about_section{
+	padding: 80px;
+}
+
+#aboutText{
+	color: #EF9634;
+	float:left;
+	width: 70%;
+	font-size: 30px;
+}
+
+#portrait{
+	padding-left: 80px;
+	width:404px; height: 508px;
+}
+
+@media all and (max-height: 400px){
+	#portrait{
+		display: none;
+	}
+}

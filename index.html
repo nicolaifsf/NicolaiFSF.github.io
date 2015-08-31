@@ -1,158 +1,36 @@
 <!DOCTYPE HTML>
-<HTML>
-  <title>
-    Nicolai Ferraris | Home
-  </title>
-  <head>
-    <style>
-    /*Prelim Setup*/
-      @font-face{
-        font-family: Ubuntu;
-        src: url("Ubuntu-R.ttf");
-      }
-      *{
-        margin:0;
-        padding:0;
-        font-family: Ubuntu;
-        font-size:2.5vh;
-        overflow:auto;
-      }
-    /* Core Portions */
-      #welcome{
-        background-color:#EF9634;
-        height:95vh;
-        width:100%;
-      }
-      #header{
-        height:100%;
-        width:100%;
-        background-color:#174E79;
-        text-align:center;
-      }
-      #restDiv{
-        height: 95vh;
-        width:100%;
-        background-color:#333333;
-        overflow:auto;
-      }
-    /* Specific Items */
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="MainStyle.css">
+	<title>Nicolai Ferraris</title>
+	</head>
 
-    #nav{
-      display:inline-block;
-      /*padding-left:25px;*/
-      text-align:center;
-      padding-left:25px;
-      padding-right:25px;
-      position:relative;
-      list-style:none;
-
-    }
-    .navItem{
-      /*text-align:center;*/
-      vertical-align: center;
-      text-align:center;
-      /*padding:1vh;*/
-      display:inline-block;
-      /*padding-right: 25px;*/
-      /*padding-left: 25px;*/
-      margin-left:25px;
-      margin-right:25px;
-      /*padding-top:1vh;*/
-      margin-top:1vh;
-      margin-bottom:.5vh;
-      /*padding-bottom:1vh;*/
-      color:#E1EEF8;
-    }
-    #about{
-      background-color:#333333;
-      /*height:95.5vh;*/
-      height:95.5vh;
-      /*max-height:95.5vh;*/
-      /*padding:40px;*/
-    }
-    #aboutLeft{
-      width:700px;
-      display:inline-block;
-      /*float:left;*/
-      /*border-right: white;*/
-      padding:80px;
-      margin-top:20px;
-      margin: auto;
-      /*padding-top: 10px;*/
-
-    }
-    #aboutRight{
-      display:inline-block;
-      /*float:right;*/
-      width:400px;
-      padding:60px;
-
-    }
-    /*vert line*/
-
-    #aboutMeText{
-      /*border-right:  white;*/
-      /*border-right: solid #EF9634;*/
-      color: #EF9634;
-      font-size:24px;
-    }
-    #vertLine{
-      -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-      -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-      box-sizing: border-box;         /* Opera/IE 8+ */
-      background-color: white;
-
-      /*float:left;*/
-      /*padding-top: 5000px;*/
-      /*padding: 50px;*/
-      /*margin-top:20vh;*/
-      height:70vh;
-      width: 2px;
-      margin-top: 50px;
-      display:inline-block;
-      /*padding-right: 10px;*/
-      background-color: #EF9634;
-      /*border-right: solid #EF9634;*/
-    }
-    @media all and  (max-width: 1500px) {
-
-      #vertLine  {
-        height:0;
-        width:0;
-      }
-    }
-    #aboutHeader{
-      color: #EF9634;
-      font-size:48px;
-      padding-bottom: 14px;
-    }
-    </style>
-  </head>
-  <body>
-    <div id = "welcome">
-    </div>
-    <div id = "header">
-      <ul id = "nav">
-        <li class = "navItem">Home</li>
-        <li class = "navItem">About</li>
-        <li class = "navItem">Projects</li>
-        <li class = "navItem">Resume</li>
-        <li class = "navItem">Contact</li>
-      </ul>
-    </div>
+	<body>
 
 
+	<div class = "welcome_section">
 
-<div id = "restDiv">
-  <div id = "aboutLeft">
-    <u style = "color: #EF9634"><h1 id = "aboutHeader">Hello, I am Nicolai Ferraris</h1></u>
-    <p id = "aboutMeText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend placerat purus non tincidunt. Quisque pharetra elit a sem facilisis sollicitudin. Aenean ullamcorper nibh ut maximus cursus. Duis hendrerit turpis a urna iaculis, ac lacinia ante feugiat. In facilisis justo id odio dictum, vitae imperdiet lacus pharetra. Pellentesque ultricies volutpat nisi vel suscipit. Etiam finibus ligula quis nulla euismod, quis sagittis diam fermentum. Nullam non turpis at erat faucibus mollis non sit amet purus. Donec dapibus eros quis nulla tempus tristique. Sed faucibus elit non leo mattis imperdiet ut at leo. Vestibulum congue egestas sollicitudin. Proin gravida tincidunt libero, ac commodo velit tempus quis. Morbi semper nisi sit amet magna eleifend volutpat. Vestibulum metus turpis, imperdiet vitae dolor eu, accumsan iaculis urna. Fusce lacinia aliquet tellus vitae posuere. Aenean feugiat eros tristique augue iaculis interdum.
-    </p>
-  </div>
-  <!-- <div id = "vertLine"></div> -->
-  <div id = "aboutRight">
-    <img src = "NicolaiFerraris.jpg" style = "height: 503px; width: 408px; margin: auto; display:inline-block;">
-  </div>
-</div>
-  </body>
-</HTML>
+	</div>
+	<header>
+	<div class = "navContainer">
+		<div class = "navItem">About</div>
+		<div class = "navItem">Projects</div>
+		<div class = "navItem">Resume</div>
+		<div class = "navItem">Contact</div>
+	</div>
+	</header>
+
+	<div class = "about_section_container">
+
+	<div class = "about_section">
+      <p id = "aboutText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend placerat purus non tincidunt. Quisque pharetra elit a sem facilisis sollici    tudin. Aenean ullamcorper nibh ut maximus cursus. Duis hendrerit turpis a urna iaculis, ac lacinia ante feugiat. In facilisis justo id odio dictum, vitae imperdiet lacus pharet    ra. Pellentesque ultricies volutpat nisi vel suscipit. Etiam finibus ligula quis nulla euismod, quis sagittis diam fermentum. Nullam non turpis at erat faucibus mollis non sit     amet purus. Donec dapibus eros quis nulla tempus tristique. Sed faucibus elit non leo mattis imperdiet ut at leo. Vestibulum congue egestas sollicitudin. Proin gravida tincidun    t libero, ac commodo velit tempus quis. Morbi semper nisi sit amet magna eleifend volutpat. Vestibulum metus turpis, imperdiet vitae dolor eu, accumsan iaculis urna. Fusce laci    nia aliquet tellus vitae posuere. Aenean feugiat eros tristique augue iaculis interdum.
+      </p>
+
+      <img id = "portrait" src= "NicolaiFerraris.jpg" >
+
+      </div>
+	</div>
+	</body>
+</html>
+
+<!-- IDEA, what if I made a cabinet where whenever you insert an item, it catalogs the item into a database, taking a picture of it too, so when I need to find something, I don't need to actually physically dig through the stuff, but can just look through the catalogue instead!?! -->

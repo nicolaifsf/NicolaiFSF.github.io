@@ -142,7 +142,7 @@ header{
 #aboutText{
 	color: #EF9634;
 	float:left;
-	width: 70%;
+	width: 60%;
 	font-size: 30px;
 }
 
@@ -154,5 +154,11 @@ header{
 @media all and (max-height: 400px){
 	#portrait{
 		display: none;
+	}
+}
+
+@media all and (max-width: 1368px){
+	#portrait{
+		display:none;
 	}
 }

@@ -63,7 +63,7 @@ Font Inits
 .welcome_section{
 	background-color:#EF9634;
 	height:93vh;
-	width:100vw;
+	width:100%;
 }
 
 
@@ -81,7 +81,7 @@ header{
 
 	background-color:#174E79;
 	/*height: 6vh;*/
-	width: 100vw;
+	width: 100%;
 	text-align:center;
 	vertical-align: middle;
 	display:table;
@@ -124,15 +124,17 @@ header{
 	#portrait{
 		display: none;
 	}
+	.about_section_container{
+		height: 100%;
+	}
 }
 
 
 
 .about_section_container{
 	background-color:#333333;
-	/*background-color:black;*/
 	height: 93vh;
-	width: 100vw;
+	width: 100%;
 }
 
 .about_section{
@@ -160,5 +162,12 @@ header{
 @media all and (max-width: 1368px){
 	#portrait{
 		display:none;
+	}
+	#aboutText{
+		width: 100%;
+	}
+	.about_section_container{
+		height: 100%;
+		display:inline-block;
 	}
 }

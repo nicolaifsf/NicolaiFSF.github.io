@@ -73,6 +73,11 @@ Font Inits
 	font-family:Ubuntu;
 }
 
+a{
+    text-decoration:none;
+    display:block;
+    color:  white;
+}
 
 header{
 	text-align:center;
